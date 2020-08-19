@@ -1,6 +1,8 @@
 <resources>
 
-    <style name="AppTheme" parent="BaseTheme" />
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
 
     <style name="AppTheme.Material" parent="BaseTheme.Material" />
 

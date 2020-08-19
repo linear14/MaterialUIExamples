@@ -11,5 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         basic.setOnClickListener { startActivity(Intent(this, BasicActivity::class.java)) }
+        shift.setOnClickListener { startActivity(Intent(this, ShiftActivity::class.java)) }
     }
 }

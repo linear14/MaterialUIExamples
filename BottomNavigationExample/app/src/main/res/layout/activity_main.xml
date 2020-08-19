@@ -16,4 +16,14 @@
         android:layout_height="wrap_content"
         android:text="Basic"/>
 
+    <Button
+        android:id="@+id/shift"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/basic"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shift"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
