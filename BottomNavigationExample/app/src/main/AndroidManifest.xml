@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ShiftActivity"></activity>
+        <activity android:name=".IconActivity"></activity>
+        <activity android:name=".ShiftActivity" />
         <activity
             android:name=".BasicActivity"
             android:parentActivityName=".MainActivity" />

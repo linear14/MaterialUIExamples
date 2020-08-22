@@ -7,6 +7,9 @@ import kotlinx.android.synthetic.main.activity_basic.*
 import kotlinx.android.synthetic.main.activity_basic.search_bar
 import kotlinx.android.synthetic.main.include_card_view_search_bar.*
 
+/***
+ * 혹시.. navigation 에서 선택시 뒤의 effect 색을 바꾸는 방법이 궁금하면 --> Theme설정. (colorControlHighlight)
+ */
 class ShiftActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
